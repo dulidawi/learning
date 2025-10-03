@@ -14,7 +14,6 @@
 // logMessage("Hello!", 4);
 // logMessage("Bye!", 5);
 
-
 // const globalMessage = "Hello!"
 
 // function logMessage(message, count) {
@@ -33,7 +32,6 @@
 
 // const result = sum(100, 400)
 // console.log(result);
-
 
 // function typeOfAge(age) {
 //     if (typeof age !== "number") {
@@ -59,5 +57,54 @@
 // }
 
 // console.log(secretName("Max"));
+
+// function sayHello(name) {
+//   return `Hello! ${name}!`;
+// }
+// console.log(sayHello("Max"));
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// console.log(sum(2, 4));
+
+// function square(num) {
+//   return num ** 2;
+// }
+// console.log(square(3));
+
+// function isEven(number) {
+//   if (number % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isEven(76));
+
+// function stringLength(str) {
+//   return str.length;
+// }
+
+// console.log(stringLength("Max"));
+
+
+// function maxOfTwo(a, b) {
+//     if (a > b) {
+//         return a
+//     } else {
+//         return b
+//     }
+// }
+
+// console.log(maxOfTwo(4,6));
+
+// function multiplication(num) {
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${num} x ${i} = ${num * i}`);           
+//     }
+// }
+// multiplication(5);
 
 
